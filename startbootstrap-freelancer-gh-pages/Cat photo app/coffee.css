@@ -1,0 +1,168 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#header-container {
+  margin: 0 auto;
+  padding: none;
+  width: 1023px;
+  height: 100px;
+  background: hsl(32, 60%, 27%);
+  color: white;
+}
+
+#logo {
+  width: 71px;
+  float: left;
+}
+.header {
+  text-align: center;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-top: 20px;
+  font-size: 3rem;
+  color: hsl(22, 70%, 26%);
+}
+#head-name {
+  font-size: 3rem;
+  color: white;
+  text-decoration: none;
+}
+#background {
+  /* background: url(./images/columbian-roast.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center; */
+  background: url(./images/columbian-roast.jpeg) no-repeat center/cover fixed;
+  height: 30rem;
+  width: 100vw;
+}
+.clear {
+  clear: both;
+}
+.links a {
+  padding: 0 auto;
+  margin: 8px;
+}
+#link-container {
+  background: rgb(77, 50, 33);
+  margin: 0 auto;
+  padding: none;
+  width: 1023px;
+  height: 30px;
+}
+#link-contaner {
+  width: 1023px;
+  margin: 0 auto;
+}
+#header-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-right: 3rem;
+  position: relative;
+  top: 0.2rem;
+  left: 3rem;
+  border-right: white solid 1px;
+  padding: 2.2px 50px 2.2px 3px;
+  text-decoration: none;
+}
+#header-links a:hover {
+  font-size: 1.3rem;
+}
+.clear {
+  clear: both;
+}
+h2 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.9rem;
+  color: rgb(106, 192, 84);
+}
+.page-content img {
+  width: 480px;
+  padding-left: 30px;
+}
+.page-content {
+  width: 1023px;
+  margin: 0 auto;
+}
+h3 a {
+  text-decoration: none;
+  color: chocolate;
+}
+h3 a:hover {
+  text-decoration: underline;
+  color: hsl(32, 60%, 27%);
+}
+.paragraph-font-style {
+  width: 50%;
+  font-size: 1.2rem;
+  float: left;
+  text-align: right;
+}
+.paragraph-font-style2 {
+  font-size: 1.2rem;
+  text-align: justify;
+  text-indent: 3.4rem;
+}
+.paragraph-font-style2::first-letter {
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: cursive;
+  color: chocolate;
+}
+table {
+  border: 2px solid rgb(77, 50, 33);
+  border-spacing: 8rem;
+  margin: 0 auto;
+}
+table th {
+  color: chocolate;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 2rem;
+}
+table td {
+  color: rgb(245, 243, 241);
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1.2rem;
+}
+.footer {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  background: blue;
+}
+.footer a {
+  text-decoration: none;
+  color: chocolate;
+}
+.footer a:hover {
+  text-decoration: underline;
+  color: rgb(77, 50, 33);
+}
+#form {
+  position: relative;
+  left: 140px;
+  color: rgb(77, 50, 33);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+#button {
+  width: 90px;
+  height: 30px;
+  border-radius: 6px;
+  color: rgb(77, 50, 33);
+  background: chocolate;
+  font-weight: bold;
+  font-size: 1rem;
+}

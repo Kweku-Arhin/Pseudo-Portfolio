@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contacts</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="coffeeCss2.css" />
+    <link rel="stylesheet" href="coffee.css" />
+  </head>
+
+  <body>
+    <div id="logo_" class="container">
+      <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="./images/IMG-20200609-WA0101.jpg"
+            width="100"
+            height="100"
+            alt=""
+            loading="lazy"
+            style="float: left;"
+          />
+          <h1
+            style="
+              position: relative;
+              top: 1.4rem;
+              left: 1rem;
+              color: saddlebrown;
+              float: left;
+              box-sizing: border-box;
+              font-size: 2.6rem;
+              font-family: 'Pacifico', cursive;
+            "
+          >
+            Coffee Junkie
+          </h1>
+        </a>
+        <div
+          id="links"
+          style="
+            /* background: green; */
+            font-size: 1.2rem;
+            width: 26rem;
+            height: 1.6rem;
+            /* float: left; */
+            margin: auto;
+            position: relative;
+            /* left: 18px; */
+            bottom: 0.5rem;
+            padding-left: 1.2rem;
+          "
+        >
+          <a class="btn btn-primary btn-sm" href="index.html" role="button"
+            >Home</a
+          >
+          <a class="btn btn-primary btn-sm" href="about.html" role="button"
+            >About</a
+          >
+          <a class="btn btn-primary btn-sm" href="numbers.html" role="button"
+            >Numbers</a
+          >
+          <a class="btn btn-primary btn-sm" href="contacts.html" role="button"
+            >Contacts</a
+          >
+        </div>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            style="float: right;"
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </nav>
+    </div>
+    <br />
+    <h1 class="header">Contact Us</h1>
+    <br />
+    <div class="page-content" style="margin-left: 1rem;">
+      <div
+        id="form"
+        class="container"
+        style="
+          box-sizing: border-box;
+          width: 20rem;
+          height: 40rem;
+          display: flex;
+        "
+      >
+        <form>
+          <!-- Name -->
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="area"
+            placeholder="Input Name"
+            style="border-radius: 0.25rem; text-align: center;"
+          />
+          <br />
+          <br />
+          <!-- Eemail -->
+          <p>
+            <label for="email">Email</label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              class="area"
+              placeholder="name@email.com"
+              style="border-radius: 0.25rem; text-align: center;"
+            />
+          </p>
+          <br />
+          <br />
+          <!-- Description -->
+          <p>Description</p>
+          <br />
+          <textarea
+            name="description"
+            id="text"
+            class="area"
+            cols="30"
+            rows="10"
+            placeholder="Your Description"
+            style="border-radius: 0.25rem; text-align: center;"
+          ></textarea>
+          <p><input type="submit" id="button" value="Submit" /></p>
+        </form>
+      </div>
+      <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          document.querySelector("#button").disabled = true;
+
+          document.querySelector("#name").onkeyup = () => {
+            if (document.querySelector("#button"));
+          };
+
+          document.querySelector("#form").onsubmit = () => {
+            var name = document.querySelector("#name").value;
+            alert(`Thank you ${name}!`);
+          };
+        });
+      </script>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <div
+        class="container"
+        style="
+          /* background-color: green; */
+          position: relative;
+          left: 36rem;
+          width: 14rem;
+        "
+      >
+        <div class="container">
+          <a class="btn btn-primary btn-sm" href="#logo_" role="button"
+            >Back to top</a
+          >
+          <br />
+          <p>Copyright&copy;2020</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
